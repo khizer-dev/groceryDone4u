@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/groceryDone4u/static/css/main.646da39e.chunk.css",
+    "main.js": "/groceryDone4u/static/js/main.b197fc48.chunk.js",
+    "main.js.map": "/groceryDone4u/static/js/main.b197fc48.chunk.js.map",
+    "runtime-main.js": "/groceryDone4u/static/js/runtime-main.7690d402.js",
+    "runtime-main.js.map": "/groceryDone4u/static/js/runtime-main.7690d402.js.map",
+    "static/css/2.11829350.chunk.css": "/groceryDone4u/static/css/2.11829350.chunk.css",
+    "static/js/2.b0888340.chunk.js": "/groceryDone4u/static/js/2.b0888340.chunk.js",
+    "static/js/2.b0888340.chunk.js.map": "/groceryDone4u/static/js/2.b0888340.chunk.js.map",
+    "index.html": "/groceryDone4u/index.html",
+    "precache-manifest.421fb245a59b3a7cd986ccc9a530160a.js": "/groceryDone4u/precache-manifest.421fb245a59b3a7cd986ccc9a530160a.js",
+    "service-worker.js": "/groceryDone4u/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/groceryDone4u/static/css/2.11829350.chunk.css.map",
+    "static/css/main.646da39e.chunk.css.map": "/groceryDone4u/static/css/main.646da39e.chunk.css.map",
+    "static/js/2.b0888340.chunk.js.LICENSE.txt": "/groceryDone4u/static/js/2.b0888340.chunk.js.LICENSE.txt",
+    "static/media/banner-campaign-3.png": "/groceryDone4u/static/media/banner-campaign-3.5a308170.png",
+    "static/media/banner-campaign-4.png": "/groceryDone4u/static/media/banner-campaign-4.7cec72e4.png",
+    "static/media/MainBanner.style.css": "/groceryDone4u/static/media/banner_bg_3.e91b1491.png",
+    "static/media/style.css": "/groceryDone4u/static/media/promo_overlay.2ce895c9.png",
+    "static/media/head_phone_1.png": "/groceryDone4u/static/media/head_phone_1.67c1e486.png",
+    "static/media/style.css.map": "/groceryDone4u/static/media/style.css.915328d2.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7690d402.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.b0888340.chunk.js",
+    "static/css/main.646da39e.chunk.css",
+    "static/js/main.b197fc48.chunk.js"
+  ]
+}
