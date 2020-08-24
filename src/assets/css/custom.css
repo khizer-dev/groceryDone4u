@@ -1,0 +1,104 @@
+/* Set the background color of body to tan */
+body {
+    background-color: tan;
+  }
+  .xs-navbar-search{
+    height: 40px !important;
+  }
+
+  .height-40{
+    height: 40px !important;
+  } 
+  .padding-0{
+    padding: 0 !important;
+  }
+  .border-bottom-green{
+    border-bottom: orange 2px solid;
+  }
+  .bg-green{
+    background-color: #83b735 !important;
+  
+  }
+  .all-category{
+    color: white !important;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    line-height: 1;
+    transition: all 0.4s ease !important;
+    font-size: 1.14286em !important;
+    font-weight: 500 !important;
+    text-align: left;
+  }
+  .nav-menu-text{
+    font-weight: 500 !important;
+    padding: 10px 30px 10px !important;
+
+  }
+.nav-menu-text:hover{
+ color:  #83b735 !important;
+ transition: all 0.4s ease;
+ 
+}
+.menu-label{
+  top: -17px !important;
+}
+
+.margin-left-3pc{
+  margin-left: 2.5pc !important;
+}
+.color-green{
+  color: #83b735 !important;
+}
+
+.pading-top{
+  padding-top: 5rem !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 992px) {
+   
+    .xs-logo-wraper{
+      padding: 0 !important;
+    }
+    .menu-label{
+      top: 5px !important;
+    }
+    .margin-left{
+      margin-left: 7rem !important;
+      
+    }
+    .textbox-search{
+  height: 90% !important;
+  width: 110%  !important;
+
+}
+    
+  
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    .mobile-hide {
+      display: none !important;
+    }
+    .margin-left-3pc{
+  margin-left: 0pc !important;
+}
+.textbox-search{
+  height: 90% !important;
+  width: 110%  !important;
+
+}
+
+  }
