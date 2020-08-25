@@ -1,0 +1,44 @@
+.hover-pointer:hover{
+    cursor: pointer;
+}
+
+.border-bottom{
+    border-bottom: black 2px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* tablet */
+  @media screen and (max-width: 992px) {
+
+  }
+
+  /*  mobile */
+  @media screen and (max-width: 600px) {
+      .text-align-center{
+          text-align: center;
+      }
+      .mb-mbl{
+          margin-bottom: 2rem !important; 
+      }
+
+
+  }

@@ -1,0 +1,13 @@
+.border-right{
+    border-right: black 3px solid;
+}
+.p-title{
+    transition: all 0.4s ease;
+    font-size: 1.0rem !important;
+}
+
+.border-bottom{
+    border-bottom: black 3px solid !important;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}

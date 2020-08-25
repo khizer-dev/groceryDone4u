@@ -1,0 +1,15 @@
+.border{
+    border: black 2px solid;
+}
+.border-right{
+border-right: black 2px solid;
+}
+
+.font-size{
+    font-size: 1.14286em;
+}
+
+.border-right div h4 {
+    font-size: 1.5em !important;
+   
+}

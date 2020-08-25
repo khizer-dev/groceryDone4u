@@ -28,7 +28,9 @@ const items = [
     caption: "Get -50% Off",
   },
 ];
-const MainBanner = () => {
+
+const MainBanner = (props) => {
+  let fluidTemp = props.fluid;
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
 
@@ -54,14 +56,17 @@ const MainBanner = () => {
       <CarouselItem
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
-      
-        key={item.src+1}
+        key={item.src + 1}
       >
-        <Container>
+        <div className={fluidTemp ? "container-fluid bg-primary mt-4" : "container"}>
           <Row className="p-2">
             <Col className="xs-banner-content">
-              <h2 class="xs-banner-sub-title text-left font-weight-light">{item.caption}</h2>
-              <h3 class="xs-banner-title text-left font-weight-light">{item.altText}</h3>
+              <h2 class="xs-banner-sub-title text-left font-weight-light">
+                {item.caption}
+              </h2>
+              <h3 class="xs-banner-title text-left font-weight-light">
+                {item.altText}
+              </h3>
               <div className="xs-btn-wraper float-left">
                 <a href="#" className="btn btn-outline-primary">
                   VIEW COLLECTIONS
@@ -75,23 +80,22 @@ const MainBanner = () => {
               />
             </Col>
           </Row>
-        </Container>
+        </div>
       </CarouselItem>
     );
   });
 
+  console.log("fluiddd " + fluidTemp);
   return (
     <Fragment>
       <div classNameName="xs-banner">
-        <Container>
+        <div className={fluidTemp ? "container-fluid" : "container"}>
           <Row>
-            {/* <div className="xs-banner-item row"> */}
             <Col>
               <Carousel
                 activeIndex={activeIndex}
                 next={next}
                 previous={previous}
-                
               >
                 <CarouselIndicators
                   items={items}
@@ -111,64 +115,8 @@ const MainBanner = () => {
                 />
               </Carousel>
             </Col>
-
-            {/* <div className="col-lg-7">
-                                <div className="xs-banner-content content-right">
-                                    <h2 className="xs-banner-sub-title animInLeft">Get -50% Off</h2>
-                                    <h3 className="xs-banner-title animInLeft">The gift they are Wishing for is right here</h3>
-                                    <div className="xs-btn-wraper">
-                                        <a href="#" className="btn btn-outline-primary animInLeft">VIEW COLLECTIONS</a>
-                                    </div>
-                                </div>
-                        
-                            </div>
-                            <div className="col-lg-5">
-                                <div className="xs-banner-image animInRight">
-                                    <img src="../../../assets/images/welcome/head_phone_1.png" alt="head phone" />
-                                </div>
-                            
-                            </div> */}
-            {/* </div> */}
-
-            {/* <div className="xs-banner-item row">
-                            <div className="col-lg-7 ">
-                                <div className="xs-banner-content content-right">
-                                    <h2 className="xs-banner-sub-title animInLeft">Get -70% Off</h2>
-                                    <h3 className="xs-banner-title animInLeft">The gift they are Wishing for is right here</h3>
-                                    <div className="xs-btn-wraper">
-                                        <a href="#" className="btn btn-outline-primary animInLeft">VIEW COLLECTIONS</a>
-                                    </div>
-                                </div>
-                        
-                            </div>
-                            <div className="col-lg-5">
-                                <div className="xs-banner-image animInRight">
-                                    <img src="../../../assets/images/welcome/headphone_2.png" alt="head phone" />
-                                </div>
-                        
-                            </div>
-                        </div> */}
-
-            {/* <div className="xs-banner-item row">
-                            <div className="col-lg-7">
-                                <div className="xs-banner-content content-right">
-                                    <h2 className="xs-banner-sub-title animInLeft">Get -60% Off</h2>
-                                    <h3 className="xs-banner-title animInLeft">The gift they are Wishing for is right here</h3>
-                                    <div className="xs-btn-wraper">
-                                        <a href="#" className="btn btn-outline-primary animInLeft">VIEW COLLECTIONS</a>
-                                    </div>
-                                </div>
-                        
-                            </div>
-                            <div className="col-lg-5">
-                                <div className="xs-banner-image animInRight">
-                                    <img src="../../../assets/images/welcome/headphone_3.png" alt="head phone" />
-                                </div>
-                        
-                            </div>
-                        </div> */}
           </Row>
-        </Container>
+        </div>
       </div>
     </Fragment>
   );
