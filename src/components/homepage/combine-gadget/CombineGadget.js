@@ -12,7 +12,7 @@ const CombineGadget = () => {
             <Verticalgadget />
           </Col>
           <Col md={8} sm={12} xs={12}>
-            <Gadget />
+            <Gadget col={4}/>
           </Col>
         </Row>
       </Container>

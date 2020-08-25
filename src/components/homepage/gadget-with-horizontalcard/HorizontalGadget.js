@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from "react";
-import "./Gadget.style.css";
+import "./GadgetHorizontal.style.css";
 import {
   TabContent,
   TabPane,
@@ -15,9 +15,9 @@ import {
   Container,
 } from "reactstrap";
 import classnames from "classnames";
-import ProductCard from "../../product-card/ProductCard";
+import ProductCardHor from "../../product-card/ProductCardHorizontal";
 
-const Gadget = (props) => {
+const HorizontalGadget = (props) => {
   const [activeTab, setActiveTab] = useState("1");
 
   const toggle = (tab) => {
@@ -30,7 +30,7 @@ const Gadget = (props) => {
         <Row className="border-bottom">
           <Col md={6} sm={12} xm={12}>
             <h2 class="xs-content-title float-left text-align-center mb-mbl">
-              Today Gadgets & Mobile accessories
+            Hurry up! Special offers.
             </h2>
           </Col>
           <Col md={6} sm={12} xm={12}>
@@ -63,10 +63,10 @@ const Gadget = (props) => {
           <TabContent activeTab={activeTab}>
             <TabPane tabId="1">
               <Row>
-                <ProductCard col={props.col} />
-                <ProductCard col={props.col} />
-                <ProductCard col={props.col} />
-                <ProductCard col={props.col} />
+                <ProductCardHor col={props.col} />
+                <ProductCardHor col={props.col} />
+                <ProductCardHor col={props.col} />
+                <ProductCardHor col={props.col} />
               </Row>
             </TabPane>
             <TabPane tabId="2">
@@ -100,4 +100,4 @@ const Gadget = (props) => {
   );
 };
 
-export default Gadget;
+export default HorizontalGadget;
