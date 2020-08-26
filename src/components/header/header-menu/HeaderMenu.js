@@ -1,30 +1,5 @@
-// import React, { Fragment } from "react";
-// import { Container, Row, Col } from "reactstrap";
-
-// const HeaderMenu = () => {
-//   return (
-//     <Fragment>
-//       <div class="xs-navDown navDown-v5 secondary-color-v">
-//         <Container>
-//           <Row>
-//             <Col lg={3} className="d-none d-md-none d-lg-block">
-//               <div class=" xs-vartical-menu padding-0 ">
-//                 <span>sfsafasg</span>
-//                 <a class="cd-dropdown-trigger " href="#0">
-//                   <i class="fa fa-list-ul"></i> All Categories
-//                 </a>
-//               </div>
-//             </Col>
-//           </Row>
-//         </Container>
-//       </div>
-//     </Fragment>
-//   );
-// };
-
-// export default HeaderMenu;
-
 import React, { useState } from "react";
+import {Link} from 'react-router-dom';
 import {
   Collapse,
   Navbar,
@@ -42,14 +17,18 @@ import {
   Row,
   Col,
 } from "reactstrap";
+// import SideDrawerButton from '../../side-drawer/SideDrawerButton';
+import SideDrawer from '../../side-drawer/SideDrawer';
 
 const Example = (props) => {
   const [isOpen, setIsOpen] = useState(false);
-
   const toggle = () => setIsOpen(!isOpen);
+
+
 
   return (
     <Container>
+
       <Navbar color="light" light expand="md" className="border-bottom-green">
         <NavbarBrand className="bg-green  all-category mobile-hide  ">
           <UncontrolledDropdown nav inNavbar>
@@ -83,8 +62,10 @@ const Example = (props) => {
                 Pages
               </DropdownToggle>
               <DropdownMenu right>
-                <DropdownItem>Option 1</DropdownItem>
-                <DropdownItem>Option 2</DropdownItem>
+                <Link to={'/product'}><DropdownItem> Product Page</DropdownItem></Link> 
+                <Link to={'/about'}><DropdownItem> About us</DropdownItem></Link> 
+                <Link to={'/contact'}><DropdownItem> Contact us</DropdownItem></Link> 
+                <Link to={'/faq'}><DropdownItem> FAQ</DropdownItem></Link> 
                 <DropdownItem divider />
                 <DropdownItem>Reset</DropdownItem>
               </DropdownMenu>
@@ -130,6 +111,7 @@ const Example = (props) => {
               >
                 <span className="xs-item-count highlight">0</span>
                 <i class="fa fa-cart-arrow-down"></i>
+                
               </a>
             </span>
             

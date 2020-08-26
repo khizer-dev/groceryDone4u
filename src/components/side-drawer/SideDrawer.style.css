@@ -1,0 +1,19 @@
+.side-btn{
+  position: fixed !important;
+  top: 20px;
+  right: 20px;
+  z-index: 100 !important;
+  color: #83b735;
+  border: white 2px solid;
+  background-color: whitesmoke;
+}
+
+.side-btn:hover{
+  cursor: pointer;
+}
+.pos-fixed{
+  position: fixed !important;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}

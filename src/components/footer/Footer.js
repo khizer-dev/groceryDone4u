@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import './Footer.style.css';
 import { Container, Row, Col } from "reactstrap";
 
 export const Footer = () => {
@@ -41,7 +42,7 @@ export const Footer = () => {
                 </div>
               </Col>
               <Col lg={3} className="text-left">
-                <div className="media-body pading-top">
+                <div className="media-body pading-top mb-5">
                   <Row>
                     <Col lg={2}>
                       <i class="fa fa-phone fa-3x"></i>
@@ -105,10 +106,10 @@ export const Footer = () => {
               </Col>
               <Col lg={5} className="">
                 <div className="footer-widget">
-                  <Row className="ml-4">
-                    <Col lg={6} className="text-left">
+                  <Row className="marg-left">
+                    <Col lg={6} className="text-left float-left mb-5 ">
                       <h3 className="widget-title">Our Store</h3>
-                      <ul className="xs-list">
+                      <ul className="xs-list line-height-0.6">
                         <li>
                           <a href="#">New York</a>
                         </li>
@@ -131,7 +132,7 @@ export const Footer = () => {
                     </Col>
                     <Col lg={6} className="text-left">
                       <h3 className="widget-title">Useful Links</h3>
-                      <ul className="xs-list">
+                      <ul className="xs-list line-height-0.6">
                         <li>
                           <a href="#">Privacy Policy</a>
                         </li>

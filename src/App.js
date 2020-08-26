@@ -1,21 +1,37 @@
-import React from 'react';
-import Header from './components/header/Header';
-import Footer from './components/footer/Footer';
-import './assets/css/custom.css'
-import { Button } from 'reactstrap';
-import DashBoard from './components/homepage/Homepage'; 
+import React, { Fragment } from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import "./assets/css/custom.css";
+import HomePage from "./components/homepage/Homepage";
+import SideDrawer from "./components/side-drawer/SideDrawer";
+import ProductPage from "./components/Pages/product/ProductPage";
+import Aboutus from "./components/Pages/about-us/Aboutus";
+import Contactus from "./components/Pages/contact-us/Contactus";
+import FAQ from "./components/Pages/faq/FAQ";
 
-
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-   <Header/>
-   <DashBoard/>
-   <Footer/>
-
-    </div>
+    <Router>
+      <Fragment>
+        <div className="App">
+          <SideDrawer />
+          <Header />
+          <section>
+            <Switch>
+              <Route exact path="/" component={HomePage} />
+              <Route exact path="/product" component={ProductPage} />
+              <Route exact path="/about" component={Aboutus} />
+              <Route exact path="/contact" component={Contactus} />
+              <Route exact path="/faq" component={FAQ} />
+              <Route path="*"></Route>
+            </Switch>
+          </section>
+          <Footer />
+        </div>
+      </Fragment>
+    </Router>
   );
-}
+};
 
 export default App;

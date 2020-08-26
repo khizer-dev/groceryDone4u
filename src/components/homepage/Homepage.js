@@ -6,6 +6,7 @@ import Gadget from './gadget/Gadget';
 import CombineGadget from './combine-gadget/CombineGadget';
 import GadgetHorizontal from './gadget-with-horizontalcard/HorizontalGadget';
 import MultiVerticalGadget from './multiverticalgadget/MultiVerticalGadget';
+import HorImages from './horizontal-images/HorizontalImages'
 
 
 
@@ -21,6 +22,7 @@ import MultiVerticalGadget from './multiverticalgadget/MultiVerticalGadget';
             <CombineGadget  />
             <GadgetHorizontal />
             <MultiVerticalGadget />
+            <HorImages />
         </Fragment>
     )
 }

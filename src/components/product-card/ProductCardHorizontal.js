@@ -9,10 +9,10 @@ import {
   Container,
 } from "reactstrap";
 
-const ProductCardHorizontal = () => {
+const ProductCardHorizontal = (props) => {
   return (
     <Fragment>
-      <Col lg={4} md={4} sm={6} xs={6} className="mb-5">
+      <Col lg={ props.col ? props.col : "4"  } md={6} className="mb-5">
         <div className="xs-product-widget media">
           <img
             className="d-flex"

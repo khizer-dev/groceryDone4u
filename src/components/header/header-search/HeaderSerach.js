@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import {Link} from 'react-router-dom';
 import {
   Container,
   Row,
@@ -17,11 +18,11 @@ const HeaderSerach = () => {
         <Row>
           <Col lg={4} sm={12} xs={12} className="">
             <div className="xs-logo-wraper">
-              <a href="">
+              <Link to="/">
                 <img
                   src={require("../../../assets/images/logo-secondary.png")}
                 />
-              </a>
+              </Link>
             </div>
           </Col>
           <Col lg={8} sm={12} xs={12} className="pt-3">
