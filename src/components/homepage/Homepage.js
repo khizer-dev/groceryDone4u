@@ -4,7 +4,8 @@ import FeaturedList from './featured-list/FeaturedList';
 import BannerCompaign from './banner-compaign/BannerCompaign';
 import Gadget from './gadget/Gadget';
 import CombineGadget from './combine-gadget/CombineGadget';
-import GadgetHorizontal from './gadget-with-horizontalcard/HorizontalGadget'
+import GadgetHorizontal from './gadget-with-horizontalcard/HorizontalGadget';
+import MultiVerticalGadget from './multiverticalgadget/MultiVerticalGadget';
 
 
 
@@ -19,6 +20,7 @@ import GadgetHorizontal from './gadget-with-horizontalcard/HorizontalGadget'
             <MainBanner fluid={true}/>
             <CombineGadget  />
             <GadgetHorizontal />
+            <MultiVerticalGadget />
         </Fragment>
     )
 }

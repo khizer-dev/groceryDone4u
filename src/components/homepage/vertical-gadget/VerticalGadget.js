@@ -1,5 +1,6 @@
 import React, { Fragment, useState } from "react";
 import "./VerticalGadget.style.css";
+import PropTypes from 'prop-types';
 import {
   TabContent,
   TabPane,
@@ -14,9 +15,10 @@ import {
   Col,
   Container,
 } from "reactstrap";
+
 import classnames from "classnames";
 
-const VerticalGadget = () => {
+const VerticalGadget = (props) => {
   const [activeTab, setActiveTab] = useState("1");
 
   const toggle = (tab) => {
@@ -28,9 +30,9 @@ const VerticalGadget = () => {
       <Container className="mt-5 border-right">
         <Row className="border-bottom">
           <Col md={7} sm={12} xm={12}>
-            <h2 class="xs-content-title float-left text-align-center mb-mbl">
-              Featured Product
-            </h2>
+            <h3 class="xs-content-title float-left  mb-mbl">
+              {props.title}
+            </h3>
           </Col>
           <Col md={5} sm={12} xm={12}>
             <Nav tabs className="float-right">
@@ -161,6 +163,10 @@ const VerticalGadget = () => {
       </Container>
     </Fragment>
   );
+};
+
+VerticalGadget.propTypes = {
+title: PropTypes.string.isRequired
 };
 
 export default VerticalGadget;

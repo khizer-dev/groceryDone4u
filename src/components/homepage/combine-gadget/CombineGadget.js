@@ -9,7 +9,7 @@ const CombineGadget = () => {
       <Container>
         <Row>
           <Col md={4} sm={12} xs={12}>
-            <Verticalgadget />
+            <Verticalgadget title={"Featured Product"} />
           </Col>
           <Col md={8} sm={12} xs={12}>
             <Gadget col={4}/>
