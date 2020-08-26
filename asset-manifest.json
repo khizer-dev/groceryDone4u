@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/groceryDone4u/static/css/main.d12f9500.chunk.css",
-    "main.js": "/groceryDone4u/static/js/main.d43e8761.chunk.js",
-    "main.js.map": "/groceryDone4u/static/js/main.d43e8761.chunk.js.map",
+    "main.js": "/groceryDone4u/static/js/main.459f3903.chunk.js",
+    "main.js.map": "/groceryDone4u/static/js/main.459f3903.chunk.js.map",
     "runtime-main.js": "/groceryDone4u/static/js/runtime-main.7690d402.js",
     "runtime-main.js.map": "/groceryDone4u/static/js/runtime-main.7690d402.js.map",
     "static/css/2.11829350.chunk.css": "/groceryDone4u/static/css/2.11829350.chunk.css",
     "static/js/2.47155d10.chunk.js": "/groceryDone4u/static/js/2.47155d10.chunk.js",
     "static/js/2.47155d10.chunk.js.map": "/groceryDone4u/static/js/2.47155d10.chunk.js.map",
     "index.html": "/groceryDone4u/index.html",
-    "precache-manifest.838636764d0778f40b5988df15409373.js": "/groceryDone4u/precache-manifest.838636764d0778f40b5988df15409373.js",
+    "precache-manifest.cddaeb51a89d8267138ad6606ec50c98.js": "/groceryDone4u/precache-manifest.cddaeb51a89d8267138ad6606ec50c98.js",
     "service-worker.js": "/groceryDone4u/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/groceryDone4u/static/css/2.11829350.chunk.css.map",
     "static/css/main.d12f9500.chunk.css.map": "/groceryDone4u/static/css/main.d12f9500.chunk.css.map",
@@ -28,6 +28,6 @@
     "static/css/2.11829350.chunk.css",
     "static/js/2.47155d10.chunk.js",
     "static/css/main.d12f9500.chunk.css",
-    "static/js/main.d43e8761.chunk.js"
+    "static/js/main.459f3903.chunk.js"
   ]
 }
