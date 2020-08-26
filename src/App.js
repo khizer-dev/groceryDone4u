@@ -20,11 +20,11 @@ const App = () => {
           <section>
             <Switch>
               <Route exact path="/" component={HomePage} />
-              <Route exact path="/product" component={ProductPage} />
-              <Route exact path="/about" component={Aboutus} />
-              <Route exact path="/contact" component={Contactus} />
-              <Route exact path="/faq" component={FAQ} />
-              <Route path="*"></Route>
+              <Route  path="/product" component={ProductPage} />
+              <Route  path="/about" component={Aboutus} />
+              <Route  path="/contact" component={Contactus} />
+              <Route  path="/faq" component={FAQ} />
+              <Route path="*" component={HomePage}></Route>
             </Switch>
           </section>
           <Footer />
