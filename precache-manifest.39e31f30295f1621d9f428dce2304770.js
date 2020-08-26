@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b5e4356fe5896b43c21a5eed239e9a5c",
+    "revision": "93b6f6281b4774b2048c8b57b61147a5",
     "url": "/groceryDone4u/index.html"
   },
   {
-    "revision": "84597deff42c6fb6de54",
+    "revision": "d32e28317ede8b691f6f",
     "url": "/groceryDone4u/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "400f184de1be1fc6d9cf",
-    "url": "/groceryDone4u/static/css/main.c043028f.chunk.css"
+    "revision": "2fe02267b474d9612295",
+    "url": "/groceryDone4u/static/css/main.d12f9500.chunk.css"
   },
   {
-    "revision": "84597deff42c6fb6de54",
-    "url": "/groceryDone4u/static/js/2.a27bc868.chunk.js"
+    "revision": "d32e28317ede8b691f6f",
+    "url": "/groceryDone4u/static/js/2.47155d10.chunk.js"
   },
   {
-    "revision": "3a5359d431b8190dc2f36e4703f39768",
-    "url": "/groceryDone4u/static/js/2.a27bc868.chunk.js.LICENSE.txt"
+    "revision": "d2966845b94a3318bf32eecc7af8015d",
+    "url": "/groceryDone4u/static/js/2.47155d10.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "400f184de1be1fc6d9cf",
-    "url": "/groceryDone4u/static/js/main.388126c6.chunk.js"
+    "revision": "2fe02267b474d9612295",
+    "url": "/groceryDone4u/static/js/main.5c90adcd.chunk.js"
   },
   {
     "revision": "0a77ef63abcf009fbc16",
