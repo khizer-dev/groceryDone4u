@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 import {
   Container,
   Row,
@@ -8,8 +8,10 @@ import {
   FormGroup,
   InputGroup,
   Input,
+  Button,
 } from "reactstrap";
 import "../../../assets/css/custom.css";
+import "./HeaderSearch.style.css";
 
 const HeaderSerach = () => {
   return (
@@ -25,23 +27,23 @@ const HeaderSerach = () => {
               </Link>
             </div>
           </Col>
-          <Col lg={8} sm={12} xs={12} className="pt-3">
-            <form class="xs-navbar-search">
-              <Container fluid>
+          <Col lg={8} sm={12} xs={12}>
+            <div class="border-style">
+              <Container>
                 <Row>
-                  <Col lg={6} md={4} sm={5} xs={5}>
+                  <Col lg={5} md={5} sm={5} xs={5} className="border-right">
                     <Input
-                    type="search"
-                    placeholder="Find your product"
-                    className=" textbox-search"
-                  />
-                  
+                      type="search"
+                      placeholder="Find your product"
+                      className="boder-style-none width-100 marg-top-7"
+                    />
                   </Col>
-                  <Col lg={4} sm={5} xs={5} >
-               
-                    <div class="xs-category-select-wraper pt-2">
-                    <select class="xs-category-select">
-                      <option value="0">All Categories</option>
+                  <Col lg={5} md={5} sm={5} xs={5}>
+                    <Input
+                      type="select"
+                      name="select"
+                      className="boder-style-none half-width pt-2 pl--4"
+                    >
                       <option value="women's-clothing-accessories">
                         Women's Clothing &amp; Accessories
                       </option>
@@ -68,54 +70,16 @@ const HeaderSerach = () => {
                         Sports &amp; Entertainment
                       </option>
                       <option value="beauty-health">Beauty &amp; Health</option>
-                      <option value="watches">Watches</option>
-                      <option value="toys-hobbies">Toys &amp; Hobbies</option>
-                      <option value="weddings-events">
-                        Weddings &amp; Events
-                      </option>
-                      <option value="novelty-special-use">
-                        Novelty &amp; Special Use
-                      </option>
-                      <option value="automobiles-motorcycles">
-                        Automobiles &amp; Motorcycles
-                      </option>
-                      <option value="lights-lighting">
-                        Lights &amp; Lighting
-                      </option>
-                      <option value="furniture">Furniture</option>
-                      <option value="electronic-components-supplies">
-                        Electronic Components &amp; Supplies
-                      </option>
-                      <option value="office-school-supplies">
-                        Office &amp; School Supplies
-                      </option>
-                      <option value="home-appliances">Home Appliances</option>
-                      <option value="home-improvement">Home Improvement</option>
-                      <option value="security-protection">
-                        Security &amp; Protection
-                      </option>
-                      <option value="tools">Tools</option>
-                      <option value="hair-extensions-wigs">
-                        Hair Extensions &amp; Wigs
-                      </option>
-                    </select>
-                  </div>
+                    </Input>
                   </Col>
-                  <Col lg={2} sm={2} xs={2} >
-                 
-                    {/* <div class="input-group-btn "> */}
-                   
-                    <button
-                      type="submit"
-                      class="btn btn-primary height-40 margin-left-3pc pt-3" 
-                    >
+                  <Col lg={2} sm={2} xs={2}>
+                    <Button color="primary" className="float-right ml-5 size half-width">
                       <i class="fa fa-search"></i>
-                    </button>
-                  {/* </div> */}
+                    </Button>
                   </Col>
                 </Row>
               </Container>
-            </form>
+            </div>
           </Col>
         </Row>
       </Container>

@@ -4,7 +4,7 @@ import Content from './side-drawer-content/SideDrawerContent';
 import "./SideDrawer.style.css";
 
 const SideDrawer = (props) => {
-  const [sideBar, setsideBar] = useState(true);
+  const [sideBar, setsideBar] = useState(false);
 
   const sideBarHanlder = (open) => setsideBar(open);
 

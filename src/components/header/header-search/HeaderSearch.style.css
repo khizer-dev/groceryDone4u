@@ -1,0 +1,57 @@
+.width{
+    width: 250px !important;
+}
+.size{
+    position: relative;
+    right: -20px;
+}
+.border-style{
+    border: #83b735 1px solid;
+}
+
+.boder-style-none{
+    border-style: none !important;
+}
+
+.border-right{
+    border-right: #83b735 2px solid;
+}
+.width-100{
+width: 100% !important;
+}
+.half-width{
+    width: 100% !important;
+}
+
+.marg-top-7{
+    margin-top: 1% !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile */
+@media screen and (max-width: 600px) {
+.margleft-neg{
+    margin-left: -10% !important;
+}
+
+.half-width{
+    width: 85% !important;
+}
+.marg-top-7{
+    margin-top: 8% !important;
+}
+.xs-navbar-search{
+    padding-left: -10px !important;
+}
+}
