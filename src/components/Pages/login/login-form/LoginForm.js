@@ -54,16 +54,16 @@ const LoginForm = () => {
                     </Col>
                   </Row>
                   <Row>
-                    <Button color="primary ml-3 mt-4 full-width">Login</Button>
+                    <Button color="primary" className=" ml-3 mt-4 full-width">Login</Button>
                   </Row>
                   <h4 className="text-center mt-3">Or</h4>
                   <Row>
-                    <Button color="primary ml-3 mt-4 full-width">
+                    <Button color="primary"  className ="ml-3 mt-4 full-width">
                       Login with Facebook
                     </Button>
                   </Row>
                   <Row>
-                    <Button color="primary ml-3 mt-4 full-width">
+                    <Button color="danger" className="ml-3 mt-4 full-width">
                       Login with Gmail
                     </Button>
                   </Row>
