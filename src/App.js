@@ -9,6 +9,7 @@ import ProductPage from "./components/Pages/product/ProductPage";
 import Aboutus from "./components/Pages/about-us/Aboutus";
 import Contactus from "./components/Pages/contact-us/Contactus";
 import FAQ from "./components/Pages/faq/FAQ";
+import Login from './components/Pages/login/Login';
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
               <Route  path="/about" component={Aboutus} />
               <Route  path="/contact" component={Contactus} />
               <Route  path="/faq" component={FAQ} />
+              <Route  path="/login" component={Login} />
               <Route path="*"></Route>
             </Switch>
           </section>
