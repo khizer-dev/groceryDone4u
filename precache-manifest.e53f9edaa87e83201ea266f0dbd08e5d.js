@@ -1,31 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1299f6f3b9b9d01840d339f2657b7447",
+    "revision": "6a388ff795d6a34e9b7166ba42932d0f",
     "url": "/groceryDone4u/index.html"
   },
   {
-    "revision": "d32e28317ede8b691f6f",
+    "revision": "2724361f3997ae79850d",
     "url": "/groceryDone4u/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "5917c48d2303feea1431",
-    "url": "/groceryDone4u/static/css/main.d12f9500.chunk.css"
+    "revision": "c7ba2d9df729bf74ef5d",
+    "url": "/groceryDone4u/static/css/main.3d0a2fc3.chunk.css"
   },
   {
-    "revision": "d32e28317ede8b691f6f",
-    "url": "/groceryDone4u/static/js/2.47155d10.chunk.js"
+    "revision": "2724361f3997ae79850d",
+    "url": "/groceryDone4u/static/js/2.c7f82641.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/groceryDone4u/static/js/2.47155d10.chunk.js.LICENSE.txt"
+    "url": "/groceryDone4u/static/js/2.c7f82641.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5917c48d2303feea1431",
-    "url": "/groceryDone4u/static/js/main.459f3903.chunk.js"
+    "revision": "c7ba2d9df729bf74ef5d",
+    "url": "/groceryDone4u/static/js/main.34418316.chunk.js"
   },
   {
     "revision": "0a77ef63abcf009fbc16",
     "url": "/groceryDone4u/static/js/runtime-main.7690d402.js"
+  },
+  {
+    "revision": "74360e683f08ae691b9ec1ccc8380f17",
+    "url": "/groceryDone4u/static/media/about_us_img_1.74360e68.png"
+  },
+  {
+    "revision": "eb935be695d10a89134791098fa10404",
+    "url": "/groceryDone4u/static/media/about_us_img_2.eb935be6.png"
   },
   {
     "revision": "5a308170262af5552e44fcd45255238a",
@@ -58,5 +66,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2ce895c9c2702a9d1944a6de0a1da28b",
     "url": "/groceryDone4u/static/media/promo_overlay.2ce895c9.png"
+  },
+  {
+    "revision": "89faaa33fa9c4c089d02cd86e27aebf3",
+    "url": "/groceryDone4u/static/media/team_1.89faaa33.png"
   }
 ]);
