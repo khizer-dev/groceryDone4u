@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
+import {Link} from 'react-router-dom';
 import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import '../../../assets/css/custom.css';
@@ -63,9 +64,9 @@ const HeaderFeature = () => {
               </select>
             </li>
             <li>
-              <a data-toggle="modal" data-target=".xs-modal">
+              <Link to={"/login"} >
                 Login
-              </a>
+              </Link>
             </li>
           </ul>
         </Col>
