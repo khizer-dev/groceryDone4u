@@ -30,7 +30,7 @@ const Gadget = (props) => {
         <Row className="border-bottom">
           <Col md={6} sm={12} xm={12}>
             <h2 class="xs-content-title float-left text-align-center mb-mbl">
-              Today Gadgets & Mobile accessories
+              {props.title}
             </h2>
           </Col>
           <Col md={6} sm={12} xm={12}>

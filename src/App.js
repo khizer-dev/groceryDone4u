@@ -10,6 +10,10 @@ import Aboutus from "./components/Pages/about-us/Aboutus";
 import Contactus from "./components/Pages/contact-us/Contactus";
 import FAQ from "./components/Pages/faq/FAQ";
 import Login from './components/Pages/login/Login';
+import TermsCondition from './components/Pages/terms-condition/TermsCondition';
+import Register from './components/Pages/register/Register';
+import CategoryPage from './components/Pages/category/CategoryPage';
+
 
 const App = () => {
   return (
@@ -27,6 +31,9 @@ const App = () => {
               <Route  path="/contact" component={Contactus} />
               <Route  path="/faq" component={FAQ} />
               <Route  path="/login" component={Login} />
+              <Route  path="/terms-and-condition" component={TermsCondition} />
+              <Route  path="/register" component={Register} />
+              <Route  path="/product-category" component={CategoryPage} />
               <Route path="*"></Route>
             </Switch>
           </section>

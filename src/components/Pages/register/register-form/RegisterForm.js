@@ -14,10 +14,9 @@ import {
   Button,
   CardTitle,
 } from "reactstrap";
-import { Link } from "react-router-dom";
-import "./LoginForm.style.css";
+import "./RegisterForm.style.css";
 
-const LoginForm = () => {
+const RegisterForm = () => {
   return (
     <Fragment>
       <CardBody>
@@ -27,7 +26,7 @@ const LoginForm = () => {
             <Col lg={6} md={6} sm={12} xs={12}>
               <Card>
                 <CardTitle>
-                  <h2 className="text-center">Login form</h2>
+                  <h2 className="text-center">Register form</h2>
                 </CardTitle>
                 <CardBody>
                   <Row>
@@ -36,6 +35,18 @@ const LoginForm = () => {
                         <InputGroupAddon addonType="prepend">
                           <InputGroupText>
                             <i className="fa fa-user"> </i>
+                          </InputGroupText>
+                        </InputGroupAddon>
+                        <Input placeholder="name" />
+                      </InputGroup>
+                    </Col>
+                  </Row>
+                  <Row>
+                    <Col>
+                      <InputGroup className="mt-5">
+                        <InputGroupAddon addonType="prepend">
+                          <InputGroupText>
+                           @
                           </InputGroupText>
                         </InputGroupAddon>
                         <Input placeholder="username or email" />
@@ -55,17 +66,11 @@ const LoginForm = () => {
                     </Col>
                   </Row>
                   <Row>
-                    <Button color="primary" className=" ml-3 mt-4 full-width">
-                      Login
-                    </Button>
+                    <Button color="primary" className=" ml-3 mt-4 full-width">Register</Button>
                   </Row>
-                  <Link to="/register">
-                    {" "}
-                   <br/> <span  className="pt-5" >Don't have account, create one!</span>
-                  </Link>
                   <h4 className="text-center mt-3">Or</h4>
                   <Row>
-                    <Button color="primary" className="ml-3 mt-4 full-width">
+                    <Button color="primary"  className ="ml-3 mt-4 full-width">
                       Login with Facebook
                     </Button>
                   </Row>
@@ -85,4 +90,4 @@ const LoginForm = () => {
   );
 };
 
-export default LoginForm;
+export default RegisterForm;

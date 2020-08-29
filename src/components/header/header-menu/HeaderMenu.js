@@ -66,6 +66,7 @@ const Example = (props) => {
                 <Link to={'/about'}><DropdownItem> About us</DropdownItem></Link> 
                 <Link to={'/contact'}><DropdownItem> Contact us</DropdownItem></Link> 
                 <Link to={'/faq'}><DropdownItem> FAQ</DropdownItem></Link> 
+                <Link to={'/terms-and-condition'}><DropdownItem> Terms and Conditions</DropdownItem></Link> 
                 <DropdownItem divider />
                 <DropdownItem>Reset</DropdownItem>
               </DropdownMenu>
