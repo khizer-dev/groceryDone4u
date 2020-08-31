@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e4f8412b3a92b486ebc51c1b59c68602",
+    "revision": "ebd3871dc2516a4f9f886b1c439af5bf",
     "url": "/groceryDone4u/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/groceryDone4u/static/css/2.aa704b0f.chunk.css"
   },
   {
-    "revision": "21f3239d1ed1bdb3c5d6",
+    "revision": "e15177abc6dc0307ddaf",
     "url": "/groceryDone4u/static/css/main.58573b76.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/groceryDone4u/static/js/2.9afffe49.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "21f3239d1ed1bdb3c5d6",
-    "url": "/groceryDone4u/static/js/main.d3a269b1.chunk.js"
+    "revision": "e15177abc6dc0307ddaf",
+    "url": "/groceryDone4u/static/js/main.f573a302.chunk.js"
   },
   {
     "revision": "0a77ef63abcf009fbc16",
