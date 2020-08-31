@@ -13,6 +13,10 @@ import Login from './components/Pages/login/Login';
 import TermsCondition from './components/Pages/terms-condition/TermsCondition';
 import Register from './components/Pages/register/Register';
 import CategoryPage from './components/Pages/category/CategoryPage';
+// import ProductDetails from './components/Pages/product/product-details/ProductDetails';
+import ProductDetails from './components/Pages/product/ProductPage';
+import Cart from './components/Pages/cart/Cart';
+import Checkout from './components/Pages/checkout/Checkout'
 
 
 const App = () => {
@@ -34,6 +38,9 @@ const App = () => {
               <Route  path="/terms-and-condition" component={TermsCondition} />
               <Route  path="/register" component={Register} />
               <Route  path="/product-category" component={CategoryPage} />
+              <Route  path="/product-detail" component={ProductDetails} />
+              <Route  path="/cart" component={Cart} />
+              <Route  path="/checkout" component={Checkout} />
               <Route path="*"></Route>
             </Switch>
           </section>

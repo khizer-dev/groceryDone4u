@@ -1,0 +1,11 @@
+.max-width-50 {
+  max-width: 50% !important;
+}
+
+.full-height {
+  max-height: 0px !important;
+}
+
+.border {
+    border: black 1px solid !important;
+}

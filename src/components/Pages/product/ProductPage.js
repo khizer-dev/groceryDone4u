@@ -1,11 +1,15 @@
-import React,{Fragment} from 'react'
+import React, { Fragment } from "react";
+import { Container, Row, Col } from "reactstrap";
+import ProductDetails from "./product-details/ProductDetails";
 
 const ProductPage = () => {
-    return (
-        <Fragment>
-            <h1>product page..</h1>
-        </Fragment>
-    )
-}
+  return (
+    <Fragment>
+      <Container>
+        <ProductDetails />
+      </Container>
+    </Fragment>
+  );
+};
 
-export  default ProductPage;
+export default ProductPage;

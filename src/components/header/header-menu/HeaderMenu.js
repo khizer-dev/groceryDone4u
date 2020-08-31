@@ -62,11 +62,13 @@ const Example = (props) => {
                 Pages
               </DropdownToggle>
               <DropdownMenu right>
-                <Link to={'/product'}><DropdownItem> Product Page</DropdownItem></Link> 
+                <Link to={'/product-category'}><DropdownItem> Product Page</DropdownItem></Link> 
+                <Link to={'/product-detail'}><DropdownItem> Product Detail</DropdownItem></Link> 
                 <Link to={'/about'}><DropdownItem> About us</DropdownItem></Link> 
                 <Link to={'/contact'}><DropdownItem> Contact us</DropdownItem></Link> 
                 <Link to={'/faq'}><DropdownItem> FAQ</DropdownItem></Link> 
                 <Link to={'/terms-and-condition'}><DropdownItem> Terms and Conditions</DropdownItem></Link> 
+                <Link to={'/cart'}><DropdownItem>My Cart</DropdownItem></Link> 
                 <DropdownItem divider />
                 <DropdownItem>Reset</DropdownItem>
               </DropdownMenu>
