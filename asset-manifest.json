@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/groceryDone4u/static/css/main.4ae3923a.chunk.css",
-    "main.js": "/groceryDone4u/static/js/main.e22ff522.chunk.js",
-    "main.js.map": "/groceryDone4u/static/js/main.e22ff522.chunk.js.map",
+    "main.css": "/groceryDone4u/static/css/main.58573b76.chunk.css",
+    "main.js": "/groceryDone4u/static/js/main.d3a269b1.chunk.js",
+    "main.js.map": "/groceryDone4u/static/js/main.d3a269b1.chunk.js.map",
     "runtime-main.js": "/groceryDone4u/static/js/runtime-main.7690d402.js",
     "runtime-main.js.map": "/groceryDone4u/static/js/runtime-main.7690d402.js.map",
-    "static/css/2.11829350.chunk.css": "/groceryDone4u/static/css/2.11829350.chunk.css",
-    "static/js/2.b9393672.chunk.js": "/groceryDone4u/static/js/2.b9393672.chunk.js",
-    "static/js/2.b9393672.chunk.js.map": "/groceryDone4u/static/js/2.b9393672.chunk.js.map",
+    "static/css/2.aa704b0f.chunk.css": "/groceryDone4u/static/css/2.aa704b0f.chunk.css",
+    "static/js/2.9afffe49.chunk.js": "/groceryDone4u/static/js/2.9afffe49.chunk.js",
+    "static/js/2.9afffe49.chunk.js.map": "/groceryDone4u/static/js/2.9afffe49.chunk.js.map",
     "index.html": "/groceryDone4u/index.html",
-    "precache-manifest.f1801c3c6f3f291a218978e767363fc5.js": "/groceryDone4u/precache-manifest.f1801c3c6f3f291a218978e767363fc5.js",
+    "precache-manifest.d73e73285d6ca4b5d0d5b3f6b0808492.js": "/groceryDone4u/precache-manifest.d73e73285d6ca4b5d0d5b3f6b0808492.js",
     "service-worker.js": "/groceryDone4u/service-worker.js",
-    "static/css/2.11829350.chunk.css.map": "/groceryDone4u/static/css/2.11829350.chunk.css.map",
-    "static/css/main.4ae3923a.chunk.css.map": "/groceryDone4u/static/css/main.4ae3923a.chunk.css.map",
-    "static/js/2.b9393672.chunk.js.LICENSE.txt": "/groceryDone4u/static/js/2.b9393672.chunk.js.LICENSE.txt",
+    "static/css/2.aa704b0f.chunk.css.map": "/groceryDone4u/static/css/2.aa704b0f.chunk.css.map",
+    "static/css/main.58573b76.chunk.css.map": "/groceryDone4u/static/css/main.58573b76.chunk.css.map",
+    "static/js/2.9afffe49.chunk.js.LICENSE.txt": "/groceryDone4u/static/js/2.9afffe49.chunk.js.LICENSE.txt",
     "static/media/about_us_img_1.png": "/groceryDone4u/static/media/about_us_img_1.74360e68.png",
     "static/media/about_us_img_2.png": "/groceryDone4u/static/media/about_us_img_2.eb935be6.png",
     "static/media/banner-campaign-3.png": "/groceryDone4u/static/media/banner-campaign-3.5a308170.png",
@@ -23,14 +23,15 @@
     "static/media/head_phone_1.png": "/groceryDone4u/static/media/head_phone_1.67c1e486.png",
     "static/media/product_1_253x200.jpg": "/groceryDone4u/static/media/product_1_253x200.f2e0c481.jpg",
     "static/media/product_1_350x144.jpg": "/groceryDone4u/static/media/product_1_350x144.15f37e68.jpg",
+    "static/media/product_4_350x144.jpg": "/groceryDone4u/static/media/product_4_350x144.53da7398.jpg",
     "static/media/style.css.map": "/groceryDone4u/static/media/style.css.915328d2.map",
     "static/media/team_1.png": "/groceryDone4u/static/media/team_1.89faaa33.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7690d402.js",
-    "static/css/2.11829350.chunk.css",
-    "static/js/2.b9393672.chunk.js",
-    "static/css/main.4ae3923a.chunk.css",
-    "static/js/main.e22ff522.chunk.js"
+    "static/css/2.aa704b0f.chunk.css",
+    "static/js/2.9afffe49.chunk.js",
+    "static/css/main.58573b76.chunk.css",
+    "static/js/main.d3a269b1.chunk.js"
   ]
 }

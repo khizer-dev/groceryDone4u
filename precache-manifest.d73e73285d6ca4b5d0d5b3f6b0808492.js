@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a09f03221513a03eab3288f13d47d5f0",
+    "revision": "e4f8412b3a92b486ebc51c1b59c68602",
     "url": "/groceryDone4u/index.html"
   },
   {
-    "revision": "9d30e55d17f7ec49a93e",
-    "url": "/groceryDone4u/static/css/2.11829350.chunk.css"
+    "revision": "83bd2461a8b258ea617b",
+    "url": "/groceryDone4u/static/css/2.aa704b0f.chunk.css"
   },
   {
-    "revision": "8e0889ba9a5a9205b0bd",
-    "url": "/groceryDone4u/static/css/main.4ae3923a.chunk.css"
+    "revision": "21f3239d1ed1bdb3c5d6",
+    "url": "/groceryDone4u/static/css/main.58573b76.chunk.css"
   },
   {
-    "revision": "9d30e55d17f7ec49a93e",
-    "url": "/groceryDone4u/static/js/2.b9393672.chunk.js"
+    "revision": "83bd2461a8b258ea617b",
+    "url": "/groceryDone4u/static/js/2.9afffe49.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/groceryDone4u/static/js/2.b9393672.chunk.js.LICENSE.txt"
+    "url": "/groceryDone4u/static/js/2.9afffe49.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8e0889ba9a5a9205b0bd",
-    "url": "/groceryDone4u/static/js/main.e22ff522.chunk.js"
+    "revision": "21f3239d1ed1bdb3c5d6",
+    "url": "/groceryDone4u/static/js/main.d3a269b1.chunk.js"
   },
   {
     "revision": "0a77ef63abcf009fbc16",
@@ -62,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "15f37e68ffd4d3ecc43ae29787ae1fa4",
     "url": "/groceryDone4u/static/media/product_1_350x144.15f37e68.jpg"
+  },
+  {
+    "revision": "53da7398816f25cf971b427f5321d4dd",
+    "url": "/groceryDone4u/static/media/product_4_350x144.53da7398.jpg"
   },
   {
     "revision": "2ce895c9c2702a9d1944a6de0a1da28b",
