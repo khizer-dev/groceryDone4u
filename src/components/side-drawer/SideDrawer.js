@@ -1,6 +1,7 @@
 import React, { Fragment, useState } from "react";
 import Sidebar from "react-sidebar";
 import Content from './side-drawer-content/SideDrawerContent';
+import {FiShoppingCart} from 'react-icons/fi';
 import "./SideDrawer.style.css";
 
 const SideDrawer = (props) => {
@@ -26,7 +27,8 @@ const SideDrawer = (props) => {
         maxWidth: "30%",
         minWidth: "30%" } }}
       >
-        <span className="side-btn" onClick={() => sideBarHanlder(true)}><i className="fa fa-cart-arrow-down fa-3x"></i></span>
+       
+        <span className="side-btn" onClick={() => sideBarHanlder(true)}> <FiShoppingCart  size={50}/></span>
      
       </Sidebar>
     </Fragment>

@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Fade from 'react-reveal/Fade';
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import "./assets/css/custom.css";
@@ -23,6 +24,7 @@ const App = () => {
   return (
     <Router>
       <Fragment>
+        <Fade top>
         <div className="App">
           <SideDrawer />
           <Header />
@@ -46,6 +48,7 @@ const App = () => {
           </section>
           <Footer />
         </div>
+        </Fade>
       </Fragment>
     </Router>
   );

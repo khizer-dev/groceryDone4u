@@ -3,6 +3,11 @@ import './Footer.style.css';
 import { Container, Row, Col } from "reactstrap";
 
 export const Footer = () => {
+
+  const scrollTop = () =>{
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  };
+
   return (
     <Fragment>
       <footer className="xs-footer-section">
@@ -334,7 +339,7 @@ export const Footer = () => {
         </div>
 
         <div className="xs-back-to-top-wraper">
-          <a href="#" className="xs-back-to-top btn btn-success">
+          <a href="#" onClick={scrollTop} className="xs-back-to-top btn btn-success">
             Back top<i class="fa fa-angle-right mr-2"></i>
           </a>
         </div>

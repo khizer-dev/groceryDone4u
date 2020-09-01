@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 
 export const HeaderAlert = () => {
+
   const [isShow, setIsShow] = useState(true);
+  setTimeout(()=> { setIsShow(false)}  , 10000)
   return (
     <div style={{zIndex: '999' }}>
       {isShow ? (
@@ -11,13 +13,7 @@ export const HeaderAlert = () => {
             role="alert"
           >
             <div className="container">
-              <button
-                type="button"
-                className="close"
-                onClick={() => setIsShow(false)}
-              >
-                <span aria-hidden="true" style={{zIndex: '999' }}>X</span>
-              </button>
+              
               <p>
                 Welcome to Marketpress ! Wrap new offers / gift every single day
                 on Weekends – New Coupon code: Happy2020

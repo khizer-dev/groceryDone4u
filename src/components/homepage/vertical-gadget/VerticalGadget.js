@@ -1,6 +1,7 @@
 import React, { Fragment, useState } from "react";
 import "./VerticalGadget.style.css";
 import PropTypes from 'prop-types';
+import {RiArrowLeftSLine , RiArrowRightSLine } from 'react-icons/ri';
 import {
   TabContent,
   TabPane,
@@ -36,26 +37,26 @@ const VerticalGadget = (props) => {
           </Col>
           <Col md={5} sm={12} xm={12}>
             <Nav tabs className="float-right">
-              <NavItem className="hover-pointer ">
+              <div className="hover-pointer" style={{paddingRight: 0}} >
                 <NavLink
                   className={classnames({ active: activeTab === "1" })}
                   onClick={() => {
                     toggle("1");
                   }}
                 >
-                  <i class="fa fa-chevron-left "></i>
+                  <RiArrowLeftSLine size={20} />
                 </NavLink>
-              </NavItem>
-              <NavItem className="hover-pointer  ">
+              </div>
+              <div className="hover-pointer " style={{paddingRight: '0px'}}>
                 <NavLink
                   className={classnames({ active: activeTab === "2" })}
                   onClick={() => {
                     toggle("2");
                   }}
                 >
-                  <i className="fa fa-chevron-right"></i>
+                  <RiArrowRightSLine size={20}/>
                 </NavLink>
-              </NavItem>
+              </div>
             </Nav>
           </Col>
         </Row>

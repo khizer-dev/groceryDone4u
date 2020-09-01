@@ -1,0 +1,8 @@
+.btn:not([data-toggle="popover"]).btn-secondary {
+    background-color: #62ab00 !important;
+    border: 0px;
+}
+
+.max-width{
+    max-width: 10% !important;
+}

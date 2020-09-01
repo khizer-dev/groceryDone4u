@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 import {Link} from 'react-router-dom';
+import {FaRegHeart} from 'react-icons/fa'
+import {BiUser} from 'react-icons/bi'
+import {} from 'react-icons'
+import {} from 'react-icons'
+import {} from 'react-icons'
 import {
   Collapse,
   Navbar,
@@ -30,9 +35,9 @@ const Example = (props) => {
     <Container>
 
       <Navbar color="light" light expand="md" className="border-bottom-green">
-        <NavbarBrand className="bg-green  all-category mobile-hide  ">
+        <NavbarBrand className="all-category mobile-hide  ">
           <UncontrolledDropdown nav inNavbar>
-            <DropdownToggle className="bg-green ">
+            <DropdownToggle className="bg-green btn-success">
               <i className="fa fa-list-ul pr-4"></i> All Categories{" "}
               <i class="fa fa-angle-down pl-4"></i>
             </DropdownToggle>
@@ -69,6 +74,7 @@ const Example = (props) => {
                 <Link to={'/faq'}><DropdownItem> FAQ</DropdownItem></Link> 
                 <Link to={'/terms-and-condition'}><DropdownItem> Terms and Conditions</DropdownItem></Link> 
                 <Link to={'/cart'}><DropdownItem>My Cart</DropdownItem></Link> 
+                <Link to={'/checkout'}><DropdownItem>Checkout</DropdownItem></Link> 
                 <DropdownItem divider />
                 <DropdownItem>Reset</DropdownItem>
               </DropdownMenu>
@@ -97,29 +103,31 @@ const Example = (props) => {
             </UncontrolledDropdown>
           </Nav>
           <div>
-            <span class="xs-wish-list">
+            <span class="xs-wish-list" >
               <a
                 href="#"
-                className="xs-single-wishList d-none d-md-none d-lg-block"
+                className="xs-single-wishList d-none  d-lg-block"
               >
                 <span className="xs-item-count highlight">0</span>
-                <i className="fa fa-heart"></i>
+                <FaRegHeart  size={30} />
               </a>
             </span>
            
-            <span class="xs-wish-list ">
-              <a
-                href="#"
-                className="xs-single-wishList d-none d-md-none d-lg-block"
-              >
-                <span className="xs-item-count highlight">0</span>
-                <i class="fa fa-cart-arrow-down"></i>
-                
-              </a>
-            </span>
+           
+           
             
           </div>
         </Collapse>
+        <span class="xs-wish-list ">
+              <Link
+               to="/login"
+                className="xs-single-wishList   d-lg-block"
+              >
+                
+                <BiUser size={30} />
+                
+              </Link>
+            </span>
       </Navbar>
     </Container>
   );

@@ -1,5 +1,10 @@
 import React, {Fragment} from 'react';
 import './FeaturedList.style.css';
+import {FiShoppingCart} from 'react-icons/fi';
+import {HiUsers} from 'react-icons/hi';
+import {GiReturnArrow} from 'react-icons/gi';
+import {CgDollar} from 'react-icons/cg';
+
 import {
     Container ,
     Row ,
@@ -14,8 +19,8 @@ import {
                   <Row className="border">
                       <Col md={3} sm={12} xs={12}>
                             <div class="media xs-feature p-4 border-right ">
-                                 <i class="fa fa-cart-plus d-flex mr-3 "></i>
-                                  <div class=" xs-feature-text">
+                                 <FiShoppingCart  size={30} color={'blue'}/>
+                                  <div class=" xs-feature-text ml-3">
                                          <h4>Free Delivery</h4>
                                         <span>from $78</span>
                                     </div>
@@ -23,8 +28,8 @@ import {
                       </Col>
                       <Col md={3} sm={12} xs={12}>
                         <div class="media xs-feature p-4 border-right ">
-                                <i class="fa fa-users  d-flex mr-3"></i>
-                                <div class="media-body xs-feature-text">
+                                <HiUsers size={30} color={'blue'}/>
+                                <div class="media-body xs-feature-text ml-3">
                                     <h4>99% Customer</h4>
                                      <span>feedbacks</span>
                                 </div>
@@ -33,8 +38,8 @@ import {
                       </Col>
                       <Col md={3} sm={12} xs={12}>
                         <div class="media xs-feature p-4 border-right ">
-                                    <i class="fa fa-undo  mr-3 align-self-center"></i>
-                                    <div class="media-body xs-feature-text">
+                                   <GiReturnArrow size={30} color={'blue'}/>
+                                    <div class="media-body xs-feature-text ml-3">
                                         <h4>10 Days</h4>
                                         <span>for free return</span>
                                     </div>
@@ -42,8 +47,8 @@ import {
                       </Col>
                       <Col sm={3} xs={12}>
                         <div class="media xs-feature p-4 border-right ">
-                                    <i class="fa fa-usd mr-3 align-self-center"></i>
-                                    <div class="media-body xs-feature-text">
+                                   <CgDollar size={30} color={'blue'}/>
+                                    <div class="media-body xs-feature-text ml-3">
                                         <h4>Payment</h4>
                                         <span>secure system</span>
                                     </div>
