@@ -5,3 +5,23 @@
 .font-weight-light{
     font-weight: lighter;
 }
+
+
+@media screen and (max-width: 700px){
+    .mobile-hide{
+        display: none;
+    }
+
+    .bg{
+        background-image: url('../../../assets/images/welcome/head_phone_1.png') !important;
+    }
+
+    .text-c{
+        text-align: center !important;
+    }
+
+
+    .xs-wish-list{
+        margin-right: 0px !important;
+    }
+}

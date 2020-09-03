@@ -18,9 +18,13 @@ import CategoryPage from './components/Pages/category/CategoryPage';
 import ProductDetails from './components/Pages/product/ProductPage';
 import Cart from './components/Pages/cart/Cart';
 import Checkout from './components/Pages/checkout/Checkout'
+import AdminSideBar from './components/admin/sidebar/Sidebar';
+import AdminVendorFormOption from './components/admin/vendor-catalogue/form-option/FormOption';
+import AdminVendorInformation from './components/admin/vendor-catalogue/vendor-information/VendorInformation';
 
 
 const App = () => {
+  
   return (
     <Router>
       <Fragment>
@@ -28,6 +32,7 @@ const App = () => {
         <div className="App">
           <SideDrawer />
           <Header />
+          <AdminSideBar />
           <section>
             <Switch>
               <Route exact path="/" component={HomePage} />
@@ -43,6 +48,10 @@ const App = () => {
               <Route  path="/product-detail" component={ProductDetails} />
               <Route  path="/cart" component={Cart} />
               <Route  path="/checkout" component={Checkout} />
+              <Route  path="/vendor-form-option" component={AdminVendorFormOption} />
+              <Route  path="/vendor-admin-information" component={AdminVendorInformation} />
+              {/* <Route  path="/admin/sidebar" component={AdminSideBar} /> */}
+
               <Route path="*"></Route>
             </Switch>
           </section>

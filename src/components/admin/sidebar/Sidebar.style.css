@@ -1,0 +1,9 @@
+.pos-fixed-top{
+    position: fixed !important;
+    top: 2%;
+    left: 2%;
+}
+
+.color-black{
+    color: black !important;
+}

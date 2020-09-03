@@ -14,7 +14,7 @@ import {
 const items = [
   {
     src: "../../../assets/images/banners/banner-campaign-1.png",
-    altText: "The gift they are Wishing for is right here",
+    altText: "The Gift They Are Wishing for is right here",
     caption: "Get -50% Off",
   },
   {
@@ -60,7 +60,7 @@ const MainBanner = (props) => {
       >
         <div className={fluidTemp ? "container-fluid bg-primary mt-4" : "container"}>
           <Row className="p-2">
-            <Col className="xs-banner-content">
+            <Col className="xs-banner-content ">
               <h2 class="xs-banner-sub-title text-left font-weight-light">
                 {item.caption}
               </h2>
@@ -73,7 +73,7 @@ const MainBanner = (props) => {
                 </a>
               </div>
             </Col>
-            <Col className="text-right ">
+            <Col className="text-right mobile-hide">
               <img
                 src={require("../../../assets/images/welcome/head_phone_1.png")}
                 alt={item.altText}
