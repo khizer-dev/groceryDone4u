@@ -21,7 +21,7 @@ import Checkout from './components/Pages/checkout/Checkout'
 import AdminSideBar from './components/admin/sidebar/Sidebar';
 import AdminVendorFormOption from './components/admin/vendor-catalogue/form-option/FormOption';
 import AdminVendorInformation from './components/admin/vendor-catalogue/vendor-information/VendorInformation';
-
+import VendorForm from './components/Pages/vendor-stuff/vendor-registration/VendorRegistration';
 
 const App = () => {
   
@@ -50,6 +50,7 @@ const App = () => {
               <Route  path="/checkout" component={Checkout} />
               <Route  path="/vendor-form-option" component={AdminVendorFormOption} />
               <Route  path="/vendor-admin-information" component={AdminVendorInformation} />
+              <Route  path="/vendor-form" component={VendorForm} />
               {/* <Route  path="/admin/sidebar" component={AdminSideBar} /> */}
 
               <Route path="*"></Route>

@@ -1,0 +1,27 @@
+.table-bordered thead td, .table-bordered thead th {
+    min-width: 180px !important;
+    border-bottom-width: 2px !important;
+}
+
+.bg-green{
+    background-color: #83b735;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and(max-width: 700px){
+
+    .table-bordered thead td, .table-bordered thead th {
+        min-width: 100px !important;
+        border-bottom-width: 2px !important;
+    }
+}
